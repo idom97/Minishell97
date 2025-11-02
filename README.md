@@ -1,6 +1,11 @@
 # Minishell - Projet Systèmes d'exploitation
 
-Ce projet est l'implémentation d'un shell en langage C.
+Notre Minishell est un shell que nous avons développé en langage C dans le cadre du projet final du cours "Systèmes d’exploitation" de la seconde année de licence informatique à distance de l’Université Paris 8, sous la direction du professeur P.KISLIN.
 
-Pour la documentation détaillée, la compilation et les tests de robustesse, veuillez consulter le fichier :
-[documentation.html](Minishell/documentation.html)
+## ⚙️ COMPILATION DU SHELL
+    </h2>
+    Pour compiler le minishell, utilisez la commande suivante:
+    ```bash
+    $ make
+    ```
+    ![alt text](https://github.com/idom97/Minishell/CE/CE1.png "Compilation")
