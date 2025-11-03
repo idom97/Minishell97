@@ -63,9 +63,9 @@ $ monexit
 ```
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE9.png "monexit")
 
-
+* monsleep
 <dl>
-  <dt>*monsleep</dt>
+  <dt></dt>
   <dd>Met le shell en pause pendant le nombre de secondes spécifié. Cette commande est robuste et gère les erreurs de saisie.</dd> 
 </dl>
 
