@@ -81,3 +81,93 @@ $ monsleep 1m 10s 5s
 
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE11.png "monsleep2")
 
+
+## 🔄 GESTION DES FLUX (PIPES et REDIRECTIONS)
+<dl>
+  <dt>Notre shell gère le chaînage de processus et la manipulation des flux d'entrée/sortie standard.</dt>
+</dl>
+    
+### PIPE (<code>|</code>)
+<dl>
+  <dt>Permet de chaîner des commandes. La sortie standard (STDOUT) de la première commande devient l'entrée standard (STDIN) de la seconde.</dt>
+</dl>    
+
+
+```bash
+$ ls | grep a
+```
+
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE6.png "pipe")
+
+### REDIRECTIONS
+    
+<dl>
+  <dt>Redirection de l’erreur standard (STDERR) vers un fichier en écrasant ses données:</dt>
+</dl>
+
+
+```bash
+$ copier -coller 2> erreurs.txt
+```
+
+(Ici, `copier -coller` est supposé être une commande qui génère une erreur, enregistrée dans `erreurs.txt`)
+
+<dl>
+  <dt>Redirection de l’entrée standard (STDIN) depuis un fichier:</dt>
+</dl>
+
+
+
+```bash
+$ cat < erreurs.txt
+```
+
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE7.png "redirection1")
+
+<dl>
+  <dt>Redirection de l’erreur standard vers la fin du fichier:</dt>
+</dl>
+
+
+```bash
+$ ajouter -RAM 2>> erreurs.txt
+$
+$ cat < erreurs.txt
+```
+       
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE8.png "redirection2")
+
+## 🏃 COMMANDES D'ARRIÈRE-PLAN
+
+<dl>
+  <dt>Le shell permet de lancer des processus en arrière-plan en utilisant l'opérateur &:</dt>
+</dl>
+
+```bash
+$ gedit &
+```
+<dl>
+  <dt>Test de téléchargement en arrière-plan avec double redirection</dt>
+  <dd>Démonstration de la robustesse en gérant une commande externe wget en arrière-plan, tout en redirigeant sa sortie standard et ses erreurs standard vers des fichiers séparés.</dd> 
+</dl>
+
+```bash
+$ wget -O nginx.tar.gz https://nginx.org/download/nginx-1.18.0.tar.gz >> sortie.txt 2> erreurs.txt &
+```
+
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE12.png "wget")
+
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE13.png "preuve")
+
+
+## 🐞 ERREUR CONSTATÉE
+<dl>
+  <dt>STDOUT n'apparait pas dans sortie.txt mais dans erreurs.txt, comme le montre la capture d'écran ci-dessous:</dt>
+</dl>
+
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE14.png "preuve")
+
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE15.png "preuve")
+
+
+
