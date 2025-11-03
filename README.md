@@ -157,9 +157,10 @@ $ wget -O nginx.tar.gz https://nginx.org/download/nginx-1.18.0.tar.gz >> sortie.
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE13.png "preuve")
 
 
-## 🐞 ERREUR CONSTATÉE
-<dl>
-  <dt>STDOUT n'apparait pas dans sortie.txt mais dans erreurs.txt, comme le montrent les captures d'écran ci-dessous:</dt>
+🐞 COMPORTEMENT OBSERVÉ
+<dl> 
+  <dt>Le fichier <code>sortie.txt</code> reste vide, tandis que les messages d’état et de progression apparaissent dans <code>erreurs.txt</code>.</dt> 
+  <dd>Ce comportement est normal : par conception, <code>wget</code> écrit ses messages de progression et d’information sur la sortie d’erreur (STDERR), et non sur la sortie standard (STDOUT).</dd>
 </dl>
 
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE14.png "preuve")
