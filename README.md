@@ -21,7 +21,6 @@ $ ./monshell
 ## 🛠️ COMMANDES INTERNES (Built-in)
 
 Notre shell supporte plusieurs commandes parmi lesquelles:
-
 <dl>
   <dt>monhelp</dt>
   <dd>Affiche le message d'aide du shell et indique les étapes pour accéder au manuel du programme.</dd> 
@@ -44,8 +43,7 @@ $ pwd
 ```
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE4.png "pwd")
 
-Puis on change de répertoire avec notre commande interne, 'moncd ..', puis on vérifie nouveau répertoire
-avec la commande externe pwd:
+Puis on change de répertoire avec notre commande interne, moncd, et on vérifie ensuite que le chemin a changé grâce à la commande externe pwd:
 
 ```bash
 $ moncd ..
@@ -147,7 +145,7 @@ $ gedit &
 ```
 <dl>
   <dt>Test de téléchargement en arrière-plan avec double redirection</dt>
-  <dd>Démonstration de la robustesse en gérant une commande externe wget en arrière-plan, tout en redirigeant sa sortie standard et ses erreurs standard vers des fichiers séparés.</dd> 
+  <dd>On lance une commande externe wget en arrière-plan, tout en redirigeant sa sortie standard et ses erreurs standard vers des fichiers séparés.</dd> 
 </dl>
 
 ```bash
