@@ -32,13 +32,12 @@ $ monhelp
 ```
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE3.png "monhelp")
 
- <dl>
+<dl>
   <dt>moncd</dt>
-  <dd>Change le répertoire courant de l'utilisateur. 
-    
-    On affiche le répertoire actuel
- avec la commande suivante:</dd> 
+  <dd>Change le répertoire courant de l'utilisateur.</dd> 
 </dl>
+
+On affiche le répertoire actuel avec la commande suivante:
 
 ```bash
 $ pwd
