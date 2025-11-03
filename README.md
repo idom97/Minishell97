@@ -65,7 +65,7 @@ $ monexit
 
 
 <dl>
-  <dt>monsleep</dt>
+  <dt>*monsleep</dt>
   <dd>Met le shell en pause pendant le nombre de secondes spécifié. Cette commande est robuste et gère les erreurs de saisie.</dd> 
 </dl>
 
