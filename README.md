@@ -22,15 +22,17 @@ $ ./monshell
 
 Notre shell supporte plusieurs commandes intégrées (built-in) essentielles pour la gestion des processus et de l'environnement.
 
-    ### monhelp
-    Affiche le message d'aide du shell et indique les étapes pour accéder au manuel du programme.
+<dl>
+  <dt>monhelp</dt>
+  <dd>Affiche le message d'aide du shell et indique les étapes pour accéder au manuel du programme.</dd>
+<d/l> 
 ```bash
 $ monhelp
 ```
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE3.png "monhelp")
 
 
-    ### moncd 
+### 2. moncd 
     Change le répertoire courant de l'utilisateur. On afficher le répertoire actuel
  avec la commande suivante:
 ```bash
