@@ -20,21 +20,26 @@ $ ./monshell
 
 ## 🛠️ COMMANDES INTERNES (Built-in)
 
-Notre shell supporte plusieurs commandes intégrées (built-in) essentielles pour la gestion des processus et de l'environnement.
+Notre shell supporte plusieurs commandes parmi lesquelles:
 
 <dl>
   <dt>monhelp</dt>
-  <dd>Affiche le message d'aide du shell et indique les étapes pour accéder au manuel du programme.</dd>
-<d/l> 
+  <dd>Affiche le message d'aide du shell et indique les étapes pour accéder au manuel du programme.</dd> 
+</dl>
+
 ```bash
 $ monhelp
 ```
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE3.png "monhelp")
 
+ <dl>
+  <dt>moncd</dt>
+  <dd>Change le répertoire courant de l'utilisateur. 
+    
+    On affiche le répertoire actuel
+ avec la commande suivante:</dd> 
+</dl>
 
-### 2. moncd 
-    Change le répertoire courant de l'utilisateur. On afficher le répertoire actuel
- avec la commande suivante:
 ```bash
 $ pwd
 ```
@@ -49,4 +54,31 @@ $ pwd
 ```
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE5.png "moncd_pwd") 
 
+ <dl>
+  <dt>monexit</dt>
+  <dd>Quitte le shell proprement, en terminant tous les processus en arrière-plan.</dd> 
+</dl>
+
+```bash
+$ monexit
+```
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE9.png "monexit")
+
+
+<dl>
+  <dt>monsleep</dt>
+  <dd>Met le shell en pause pendant le nombre de secondes spécifié. Cette commande est robuste et gère les erreurs de saisie.</dd> 
+</dl>
+
+```bash
+$ monsleep 1 1 1
+```
+
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE10.png "monsleep")
+
+```bash
+$ monsleep 1m 10s 5s
+``` 
+
+![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE11.png "monsleep2")
 
