@@ -159,7 +159,7 @@ $ wget -O nginx.tar.gz https://nginx.org/download/nginx-1.18.0.tar.gz >> sortie.
 
 ## 🐞 ERREUR CONSTATÉE
 <dl>
-  <dt>STDOUT n'apparait pas dans sortie.txt mais dans erreurs.txt, comme le montre la capture d'écran ci-dessous:</dt>
+  <dt>STDOUT n'apparait pas dans sortie.txt mais dans erreurs.txt, comme le montre les captures d'écran ci-dessous:</dt>
 </dl>
 
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE14.png "preuve")
