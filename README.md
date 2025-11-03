@@ -5,7 +5,7 @@ Notre Minishell est un shell que nous avons développé en langage C dans le cad
 ## ⚙️ COMPILATION DU SHELL
     </h2>
     Pour compiler le minishell, utilisez la commande suivante:
-    ```javascript
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
