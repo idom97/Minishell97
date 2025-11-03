@@ -8,4 +8,4 @@ Notre Minishell est un shell que nous avons développé en langage C dans le cad
     ```bash
     $ make
     ```
-    ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE1.png "Compilation")
+    (https://github.com/idom97/Minishell97/blob/main/CE/CE1.png "Compilation")
