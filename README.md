@@ -5,13 +5,10 @@ Notre Minishell est un shell que nous avons développé en langage C dans le cad
 ## ⚙️ COMPILATION DU SHELL
     </h2>
     Pour compiler le minishell, utilisez la commande suivante:
-    ```bash
-    $ make
-    ```
-    
-Here's our logo (hover to see the title text):
-
-Inline-style: 
+    ```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE1.png "Compilation")
 
 Reference-style: 
