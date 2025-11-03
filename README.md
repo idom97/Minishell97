@@ -157,10 +157,11 @@ $ wget -O nginx.tar.gz https://nginx.org/download/nginx-1.18.0.tar.gz >> sortie.
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE13.png "preuve")
 
 
-🐞 COMPORTEMENT OBSERVÉ
+## 🐞 COMPORTEMENT OBSERVÉ
 <dl> 
   <dt>Le fichier <code>sortie.txt</code> reste vide, tandis que les messages d’état et de progression apparaissent dans <code>erreurs.txt</code>.</dt> 
-  <dd>Ce comportement est normal : par conception, <code>wget</code> écrit ses messages de progression et d’information sur la sortie d’erreur (STDERR), et non sur la sortie standard (STDOUT).</dd>
+  <dd>Ce comportement est normal, car selon la <a href="https://www.gnu.org/software/wget/manual/wget.html?utm_source=chatgpt.com">documentation officielle</a>, les barres de progression et messages d’état sont imprimés sur <code>stderr</code> afin de séparer les informations d’exécution des données téléchargées. </dd> </dl>
+
 </dl>
 
 ![alt text](https://github.com/idom97/Minishell97/blob/main/CE/CE14.png "preuve")
