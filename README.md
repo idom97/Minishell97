@@ -1,6 +1,5 @@
 # Minishell - Projet Systèmes d'exploitation
-
-Minishell développé en langage C dans le cadre du projet final du cours "Systèmes d’exploitation" de la seconde année de licence informatique à distance de l’Université Paris 8, sous la direction du professeur P.KISLIN.
+Minishell réalisé en langage C dans le cadre d'un projet académique de la seconde année de licence informatique à distance de l’Université Paris 8, sous la direction du professeur P.KISLIN.
 
 ## ⚙️ COMPILATION DU SHELL
 Pour compiler le minishell, utilisez la commande suivante:
